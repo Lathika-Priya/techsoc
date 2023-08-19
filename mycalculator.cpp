@@ -127,10 +127,8 @@ int main(){
             cout<< "tan("<<3.1415926536/180*number<<") = "<<tan(number);
         }
     }
-        
-        
-        
-    }
+        //comment
+}
 
 
 
