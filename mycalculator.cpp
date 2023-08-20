@@ -109,23 +109,23 @@ int main(){
         else if (op == 'F'||op =='f'){
             cout<< "Enter the number : "<<endl;
             cin>>number;
-            cout<<number<< " ! = "<<factorial(number);
+            cout<<number<< " ! = "<<factorial(number)<<endl;
         }
         else if (op == 'G'||op =='g'){
             cout<<"Enter the value in degree : "<<endl;
             cin>>number;
-            cout<< " sin("<<3.1415926536/180*number<<") = "<<sin(number);
+            cout<< " sin("<<3.1415926536/180*number<<") = "<<sin(number)<<endl;
         }
          else if (op == 'H'||op =='h'){
             cout<<"Enter the value in degree : "<<endl;
             cin>>number;
-            cout<< " cos("<<3.1415926536/180*number<<") = "<<cos(number);
+            cout<< " cos("<<3.1415926536/180*number<<") = "<<cos(number)<<endl;
 
         }
         else if (op == 'I'||op =='i'){
             cout<<"Enter the value in degree : "<<endl;
             cin>>number;
-            cout<< "tan("<<3.1415926536/180*number<<") = "<<tan(number);
+            cout<< "tan("<<3.1415926536/180*number<<") = "<<tan(number)<<endl;
         }
         else if (op == 'J'||op =='j'){
             cout<<"Thank you for using Calculator"<<endl;
