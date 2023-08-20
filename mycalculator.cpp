@@ -1,7 +1,6 @@
 #include <iostream>
 //basic calculator
 using namespace std;
-
 double power (double basenum, double pownum){
     double result = 1;
     for (int i=0; i<pownum;i++){
@@ -129,6 +128,9 @@ int main(){
         }
         else if (op == 'J'||op =='j'){
             cout<<"Thank you for using Calculator"<<endl;
+        }
+        else {
+            cout<<"Enter valid operator denotion "<<endl;
         }
     }
         
