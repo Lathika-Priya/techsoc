@@ -1,4 +1,5 @@
 #include <iostream>
+//basic calculator
 using namespace std;
 
 double power (double basenum, double pownum){
@@ -49,7 +50,7 @@ int main(){
     double num1,num2,basenum,pownum,number,result;
     char op;
     op='A';
-    while(op!='J'){
+    while(op!='J',op!='j'){
     cout<< "Welcome to calculator"<<endl;
     cout<< "Enter A for addition"<<endl; 
     cout<< "Enter B for substraction"<<endl;
@@ -126,8 +127,11 @@ int main(){
             cin>>number;
             cout<< "tan("<<3.1415926536/180*number<<") = "<<tan(number);
         }
+        else if (op == 'J'||op =='j'){
+            cout<<"Thank you for using Calculator"<<endl;
+        }
     }
-        //comment
+        
 }
 
 
